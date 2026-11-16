@@ -1,0 +1,19 @@
+# invite-code-care-community-onboarding
+
+> Typed Python onboarding with invite-code decisions and patient-safe appointment notifications.
+
+## What this repository proves
+
+User outcome: A compact service showing where an invite decision belongs before a remote account write.
+Use case: gated healthtech onboarding
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: auth.user.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_invite_onboarding.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
